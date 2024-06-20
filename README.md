@@ -68,6 +68,9 @@ The application will start on port 8080 by default.
 - **Headers** `Content-Type : application/json`
 
   Creates a new Payment Intent with default parameters.
+  
+![createIntent](https://github.com/Kapil7982/PortOne/assets/103938868/60092a04-90ba-479b-b9a6-e438c53ea8df)
+-
 
 ### Confirm Payment Intent
 
@@ -75,7 +78,9 @@ The application will start on port 8080 by default.
 - **Headers** `Content-Type : application/json`
 
   Confirms a Payment Intent by ID.
-
+  
+![confirmIntent](https://github.com/Kapil7982/PortOne/assets/103938868/536ee640-43e9-4539-b825-a3266859d135)
+-
 ### Capture Payment Intent
 
 - **POST** `/api/v1/capture_intent/{id}`
@@ -83,6 +88,8 @@ The application will start on port 8080 by default.
 
   Captures a Payment Intent that requires manual capture.
 
+![captureIntent](https://github.com/Kapil7982/PortOne/assets/103938868/dc1f045b-56e2-47f9-bf8b-0351d4586de2)
+-
 ### Create Refund
 
 - **POST** `/api/v1/create_refund/{id}`
@@ -90,6 +97,9 @@ The application will start on port 8080 by default.
 
   Creates a refund for a Payment Intent by ID.
 
+![createRefund](https://github.com/Kapil7982/PortOne/assets/103938868/d20c65c0-d968-434b-9507-af02aa99cd33)
+-
+ 
 ### Get Payment Intents
 
 - **GET** `/api/v1/get_intents`
@@ -97,6 +107,8 @@ The application will start on port 8080 by default.
 
   Retrieves a list of Payment Intents.
 
+![getAllIntent](https://github.com/Kapil7982/PortOne/assets/103938868/99e558fc-59f4-4f12-a7e1-1427e116a567)
+-
 ## Reference
 
 - Stripe API docs - https://stripe.com/docs/api/payment_intents 
