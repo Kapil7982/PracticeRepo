@@ -1,0 +1,5 @@
+package com.portOne.repositories;
+
+public interface PaymentIntentRepository {
+
+}

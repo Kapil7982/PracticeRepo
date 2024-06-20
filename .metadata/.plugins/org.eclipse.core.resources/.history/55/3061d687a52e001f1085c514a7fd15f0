@@ -1,0 +1,5 @@
+package com.portOne.models;
+
+public class PaymentIntentResponse {
+
+}

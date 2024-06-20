@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="com.stripe.Stripe"/>
+    <fullyQualifiedTypeName name="com.portOne.repositories.PaymentIntentRepository"/>
+    <fullyQualifiedTypeName name="com.portOne.models.PaymentIntentResponse"/>
+    <fullyQualifiedTypeName name="com.portOne.models.PaymentIntentEntity"/>
+    <fullyQualifiedTypeName name="com.portOne.models.RefundResponse"/>
+</qualifiedTypeNameHistroy>
