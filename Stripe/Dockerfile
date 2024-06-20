@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/Stripe-0.0.1-SNAPSHOT.jar Stripe.jar
+COPY --from=build /target/PortOne-0.0.1-SNAPSHOT.jar PortOne.jar
 EXPOSE 8080
-ENTRYPOINT [ "java","-jar", "Stripe.jar" ]
+ENTRYPOINT [ "java","-jar", "PortOne.jar" ]
