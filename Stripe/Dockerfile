@@ -1,12 +1,8 @@
-# Build stage
 FROM maven:3.8.5-openjdk-17 AS build
-COPY . /build
-WORKDIR /build/Stripe
+COPY . .
 RUN mvn clean package -DskipTests
 
-# Run stage
 FROM openjdk:17.0.1-jdk-slim
-WORKDIR /app
-COPY --from=build /build/Stripe/target/*.jar /app/Stripe.jar
+COPY --from=build /target/Stripe-0.0.1-SNAPSHOT.jar /Stripe.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/app/Stripe.jar"]
+ENTRYPOINT [ "java","-jar", "Stripe.jar" ]
